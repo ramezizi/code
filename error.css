@@ -1,0 +1,132 @@
+body.error_page {
+        background: $(mt.color);
+      }
+      .error-all {
+        width: 100%;
+        position: relative;
+        margin: 5% auto;
+        height: 100%;
+        color: #fff;
+        text-align: right;
+        direction: rtl;
+        font: 12px Reda-font;
+        border-right: 0;
+        border-left: 0;
+      }
+      .error-all-all {
+        padding: 0;
+        display: table;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+      .error-left {
+        text-align: center;
+      }
+      .error-right {
+        width: 100%;
+        height: 100%;
+        padding: 30px 0 0 15px;
+      }
+      .error-right-right {
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        font-family: Reda-font;
+      }
+      .error-left-right {
+        text-align: center;
+      }
+      .error-right-right ul li:before {
+        content: &quot;\f177&quot;;
+        padding: 0px 4px;
+        color: #26c783;
+        font: 17px fontawesome;
+      }
+      .error-right-right ul {
+        padding: 20px;
+        text-align: center;
+        font-family: Reda-font;
+      }
+      .error-right-right li{
+        font-size: 16px;
+        font-family: Reda-font;
+      }
+      .error-right-right a {
+        color: #26c783;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Reda-font;
+      }
+      .error-left-right:before {
+        content: &quot;\f119&quot;;
+        font: 150px fontawesome;
+        color: #fff;
+      }
+      .error-left span {
+        font-size: 100px;
+        font-family: Reda-font;
+        text-align: center;
+        color: #fff;
+      }
+      .error-right p {
+        color: #B6B6B6;
+        text-shadow: 1px 1px #111;
+        background: #111;
+        padding: 5px;
+        border-radius: 4px;
+        position: relative;
+        height: 60px;
+      }
+      .error-right-right p:after {
+        content: &quot;\f0d9&quot;;
+        font: 27px fontawesome;
+        position: absolute;
+        left: -8px;
+        top: 20px;
+        color: #111;
+      }
+      div#wc-searchblack33 {
+        width: 340px;
+        display: inline-block;
+        padding: 5px;
+        position: relative;
+      }
+      form#wc-searchblackbox33 {
+        margin: 5px 0;
+      }
+      input#wc-searchblackinput33 {
+        padding: 5px;
+        outline: 0;
+        border: 1px solid #eee;
+        color: $(mt.color);
+        border-radius: 0 3px 3px 0;
+        width: 280px;
+        float: right;
+        height: 30px;
+        font-family: Reda-font;
+        margin: 0;
+        background: #FFFFFF;
+        font-size: 13px;
+      }
+      input#wc-searchblacksubmit33 {padding: 6px;
+        outline: 0;
+        border: 1px solid transparent;
+        border-right: 0;
+        color: #fff;
+        border-radius: 3px 0 0 3px;
+        float: right;
+        margin: 0;
+        font-family: Reda-font;
+        height: 30px;
+        background: #26c783;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .error-page {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .wrapper{display: none!important;}
